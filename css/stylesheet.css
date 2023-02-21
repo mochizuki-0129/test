@@ -1,0 +1,137 @@
+@charset "utf-8";
+body{
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif, "Helvetica Neue",
+  Arial,
+  "Hiragino Kaku Gothic ProN",
+  "Hiragino Sans",
+  Meiryo,
+  sans-serif;;
+}
+
+section{
+  background-color: aqua;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+header{
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 100px;
+}
+.ul{
+  display: flex;
+  margin-left: 400px;
+}
+.li{
+  list-style: none;
+  font-size: 30px;
+  margin: 20px;
+}
+
+
+/*-------------------------------------------
+Mainvisual
+-------------------------------------------*/
+.section1{
+  width: 100%;
+  height: 600px;
+  background-image: url("..//img/2020-04-07_Prunus_×_yedoensis_Tambasasayama\,Hyogo\(丹波篠山市篠山川のソメイヨシノ\)DSCF2986☆彡.jpg");
+  margin-bottom: 200px;
+}
+.section1 img{
+  width: 800px;
+  padding: 100px;
+ margin-left: 500px;
+}
+
+/*-------------------------------------------
+About
+-------------------------------------------*/
+h1{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 120px;
+  background-color: bisque;
+}
+.content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.content{
+  display: flex;
+  margin-left: 600px;
+}
+h2{
+  margin-left: 20px;
+  text-align: center;
+}
+p{
+  margin-left: 20px;
+}
+.section2{
+  margin-bottom: 180px;
+}
+
+
+/*-------------------------------------------
+Service
+-------------------------------------------*/
+tr img{
+ margin: 80px;
+}
+table{
+  margin-bottom: 180px;
+  margin-left: 40px;
+}
+table{
+  background-color: beige;
+}
+/*-------------------------------------------
+Works
+-------------------------------------------*/
+.ul2{
+  display: flex;
+}
+.li2{
+  list-style: none;
+  padding: 30px;
+}
+.section4
+{
+  margin-bottom: 180px;
+}
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+.ul3{
+  display: flex;
+  margin-left: 300px;
+}
+.li3{
+  list-style: none;
+  padding: 50px;
+}
+.li3 img{
+  width: 50px;
+  height: 50px;
+}
+.section5{
+  margin-bottom: 100px;
+}
+
+
+/*-------------------------------------------
+Contact
+-------------------------------------------*/
+footer{
+  text-align: center;
+  background-color: bisque;
+}
+
+.h1{
+  margin-bottom: 80px;
+}
